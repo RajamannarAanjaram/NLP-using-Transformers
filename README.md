@@ -10,4 +10,4 @@
 
  
 ### Table of Contents
-1. [Basics and Backpropagation](./Basics%20and%20Backpropagation/README.md)
+1. [Basics and Backpropagation](./Basics%20and%20Backpropagation/)
