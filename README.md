@@ -11,3 +11,4 @@
  
 ### Table of Contents
 1. [Basics and Backpropagation](./Basics%20and%20Backpropagation/)
+2. [Embeddings and Backpropagation](./Embeddings%20and%20Backpropagation/)
