@@ -1,10 +1,20 @@
-# Neural Network BackPropogation using Excel
+<br>
+<h1 align="center"> Embeddings and Backpropagation
+<br>
+    
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/RajamannarAanjaram/badges/)
+[![Awesome Badges](https://img.shields.io/badge/badges-awesome-green.svg)](https://github.com/RajamannarAanjaram/badges)
+    <br>
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/RajamannarAanjaram/)
+</h1>
 
 Backpropagation is a common method for training a neural network. The goal of backpropagation is to optimize the weights so that the neural network can learn how to correctly map arbitrary inputs to outputs. We will see how it works with a concrete example with calculations using excel sheet to understand backpropagation correctly. Here, we’re going to use a neural network with two inputs, two hidden neurons, two output neurons and we are ignoring the bias.
 
-<center>
-<img src="./images/img01.jpg" width="600">
-</center>
+<p align="center">
+<img src="./images/img01.jpg">
+</p>
 
 Here are the initial weights, for us to work with:
 
@@ -37,7 +47,7 @@ We repeat this process for the output layer neurons, using the output from the h
       
 Next, we calculate the error for each output neurons (a_o1 and a_o2) using the squared error function and sum them up to get the total error (E_total)
 
-## Calculating the Error (Loss)
+## Calculating the Error
       
     E1 = ½ * ( t1 - a_o1)²
     E2 = ½ * ( t2 - a_o2)²
