@@ -10,11 +10,15 @@
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/RajamannarAanjaram/)
 </h1>
 
+## Introduction
+
 Backpropagation is a common method for training a neural network. The goal of backpropagation is to optimize the weights so that the neural network can learn how to correctly map arbitrary inputs to outputs. We will see how it works with a concrete example with calculations using excel sheet to understand backpropagation correctly. Here, we’re going to use a neural network with two inputs, two hidden neurons, two output neurons and we are ignoring the bias.
+<br>
 
 <p align="center">
 <img src="./images/img01.jpg">
 </p>
+<br>
 
 Here are the initial weights, for us to work with:
 
@@ -114,15 +118,17 @@ We repeat this entire process for forward and backward pass until we get minimum
 
 ## Error Graph for different Learning rates
 
-Link to Excel Sheet - [file](Backpropagation.xlsx)
+<p align="center">
+<img src="./images/loss.jpg" width="600"><br>
+    <strong> Error graph for learning rates 0.1, 0.2, 0.5, 0.8, 1.0, 2.0 </strong>
+</p>
 
-Below is the error graph when we change the learning rates 0.1, 0.2, 0.5, 0.8, 1.0, 2.0
-
-
-
-<img src="./images/loss.jpg" width="600">
 
 ## Inference
 
 We can observe that with small learning rate the loss is going to drop very slowly and takes lot of time to converge, so we should always be choosing optimal learning rate neither too low nor too high (if its too high it never converges).
+
+## Files
+
+Link to Excel Sheet - [file](Backpropagation.xlsx)
 
